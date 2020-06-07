@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="chp5tasks.js"></script>
+</head>
+<body>
+
+    <!-- question #7: -->
+
+
+    <h1>shopping cart</h1>
+  
+    <script>
+ var p1=+prompt("enter price of item 1:");
+ document.write("Price of item 1 is"+" "+p1+"<br>");
+ var q1=+prompt("enter quantity of item 1:");
+ document.write("Quantity of item 1 is"+" "+q1+"<br>");
+ var p2=+prompt("enter price of item 2:");
+ document.write("Price of item 2 is"+" "+p2+"<br>");
+ var q2=+prompt("enter quantity of item 2:");
+ document.write("Quantity of item 1 is"+" "+q2+"<br>"+"<br>");
+ var tc1=p1*q1;
+ var tc2=p2*q2;
+ var tc=tc1+tc2;
+ document.write("Total cost of your order is "+" "+tc);
+</script> 
+
+
+
+ <!-- qustions # 8: -->
+
+<h1>Marks sheet</h1>
+
+
+<script> 
+     var tm=+prompt("enter total marks:");
+ document.write("Total Marks:"+" "+tm+"<br>");
+ var mo=+prompt("enter obtained marks:");
+ document.write("Marks Obtained:"+" "+mo+"<br>");
+ var per=mo/tm*100;
+ document.write("Percentage:"+" "+per+"%"); -->
+  </script>
+
+
+
+ <!-- qustions # 9: -->
+
+<h1>Currency in PKR:</h1>
+
+ <script>
+    
+     var us=10;
+     var riy=25;
+     var cal=(us*104.80)+(riy*28);
+     document.write("Total Currency in PKR:"+cal);
+     
+ </script>
+
+
+
+<!-- question #11:  -->
+
+
+  <h1>Age Calculator</h1>
+
+
+ <script>
+
+     document.write(" Forgot how old someone is? Calculate it!"+"<br>");
+var c1=+prompt("enter current year:");
+document.write("Current Year:"+" "+c1+"<br>");
+var by1=+prompt("enter 1st birth year:");
+document.write("1st Birth Year:"+" "+by1+"<br>");
+var by2=+prompt("enter 2nd birth year:");
+document.write("2nd Birth Year:"+" "+by2+"<br>");
+var age1=c1-by1;
+var age2=c1-by2;
+document.write("They are either"+" "+age1+" "+"or"+" "+age2+" "+"Years old.");
+ </script> 
+
+
+<!-- question #13: -->
+
+<h1>The Life Time Supply Calculator</h1>
+
+
+<script>
+    var snack=prompt("please input your favourite snack:");
+    var age=+prompt("enter your current age:");
+    var maxAge=+prompt("Enter your maximum average age:");
+    var amount=+prompt("enter amount consumed per day:");
+    var final=(maxAge-age)*365*amount;
+    document.write("Favourite Snack: "+snack+"<br>");
+    document.write("Current Age: "+age+"<br>");
+    document.write("Estimated Maximum age: "+maxAge+"<br>");
+    document.write("Amount of snack per day: "+amount+"<br>");
+    document.write("You will need "+final+" "+snack+" to last you untill the ripe old age of "+maxAge)
+</script>
+
+</body>
+</html>

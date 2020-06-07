@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="chp9-11tasks.js"></script>
+</head>
+<body>
+     <!-- question #6: -->
+
+    <h1>Marks sheet</h1>
+    
+    <script>
+        var eng=+prompt("enter marks of english:");
+        var comp=+prompt("enter marks of computer:");
+        var math=+prompt("enter marks of math:");
+        var to=300;
+        document.write("Total marks:"+" "+to+"<br>");
+        var om=eng+comp+math;
+        document.write("Marks obtained:"+" "+om+"<br>");
+        var per=om/to*100;
+        document.write("Percentage:"+" "+per+"%"+"<br>");
+        if (per ==80 || per>80){
+            document.write("Grade:A-one"+"<br>");
+            document.write("Remarks:Excellent")
+        }
+        else if(per == 70 ||per > 70 ){
+            document.write("Grade:A"+"<br>");
+            document.write("Remarks:Good")
+        }
+        else if(per == 60 ||per > 60 ){
+            document.write("Grade:B"+"<br>");
+            document.write("Remarks:You need to improve")
+        }
+        else if(per < 60 ){
+            document.write("Fail"+"<br>");
+            document.write("Remarks:Sorry")
+        }
+
+    </script>
+</body>
+</html>
